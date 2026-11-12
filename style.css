@@ -1,0 +1,90 @@
+
+/* CONFIGURACIÓN GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #10101a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* CABECERA */
+header {
+    background-color: #191927;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #792cff;
+}
+
+header h1 {
+    color: #a970ff;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a970ff;
+}
+
+/* SECCIONES */
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    color: #a970ff;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+#inicio {
+    background: linear-gradient(135deg, #32105f, #17172c);
+    padding: 70px 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 38px;
+}
+
+#inicio p {
+    color: #dddddd;
+    font-size: 18px;
+}
+
+/* DISEÑO PARA CELULARES */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    #inicio h2 {
+        font-size: 28px;
+    }
+}

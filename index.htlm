@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone | Mundo Gamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎮 GameZone</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#juegos">Videojuegos</a>
+            <a href="#noticias">Noticias</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a GameZone</h2>
+            <p>Tu mundo, tus videojuegos, tu aventura.</p>
+        </section>
+
+        <section id="juegos">
+            <h2>Juegos destacados</h2>
+            <div id="catalogo"></div>
+        </section>
+
+        <section id="noticias">
+            <h2>Noticias gamer</h2>
+            <p>Próximamente encontrarás aquí las últimas novedades.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
